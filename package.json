@@ -26,6 +26,7 @@
     "prepublishOnly": "pnpm build",
     "test": "vitest run",
     "type-check": "tsc --noEmit",
+    "generate-core-api-coverage": "node scripts/generate-playwright-core-api-coverage.mjs",
     "generate-docs": "typedoc",
     "format-fix": "biome format --fix"
   },
